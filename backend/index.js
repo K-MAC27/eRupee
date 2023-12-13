@@ -23,7 +23,7 @@ const pool = new Pool({
 
 // Route to send 'Hello World' message
 app.get('/api/hello1', (req, res) => {
-    const message = 'Hello World from the backend!';
+    const message = 'Hello World from the backend! Conflict from branch 1';
     res.json({ message });
 });
 
