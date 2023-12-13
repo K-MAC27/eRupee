@@ -22,7 +22,7 @@ const pool = new Pool({
 
 
 // Route to send 'Hello World' message
-app.get('/api/hello', (req, res) => {
+app.get('/api/helloWorld', (req, res) => {
     const message = 'Hello World from the backend!';
     res.json({ message });
 });
