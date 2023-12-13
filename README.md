@@ -10,7 +10,6 @@ This repository contains a web application based on e-Rupee, implementing a paym
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -36,9 +35,37 @@ The e-Rupee project is aimed at creating a payment system using modern web techn
    ```bash
    git clone https://github.com/K-MAC27/eRupee.git
 
-  i. Navigate to the backend directory and install dependencies:
+   i. Navigate to the backend directory and install dependencies:
       cd e-Rupee/backend
       npm install
-      
- ii. Set up the environment variables:
-    Create a .env file based on the provided .env.example file and input necessary configurations like database URL, API keys, etc.
+
+   ii. Set up the environment variables:
+   Create a .env file based on the provided .env.example file and input necessary configurations like database URL, API keys, etc.
+    
+   iii. Repeat step 2 for the frontend directory:
+   cd ../frontend
+   npm install
+
+## Usage
+
+1. Start the backend server:
+   cd ../backend
+npm start
+
+2. Start the frontend application:
+   cd ../frontend
+npm start
+
+3. Access the application in your web browser at http://localhost:3000.
+
+
+## Technologies Used
+
+Backend: Node.js, Express.js, MongoDB (or specify your preferred database)
+Frontend: React.js, HTML/CSS, JavaScript
+Other Tools: npm, Git
+
+## Contributing
+
+Contributions to the e-Rupee Payment System project are welcomed! If you're interested in contributing, feel free to open issues or pull requests.
+Please adhere to the Contributing Guidelines for detailed steps on how to contribute to this project.
