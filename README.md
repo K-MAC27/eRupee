@@ -40,21 +40,21 @@ The e-Rupee project is aimed at creating a payment system using modern web techn
       npm install
 
    ii. Set up the environment variables:
-   Create a .env file based on the provided .env.example file and input necessary configurations like database URL, API keys, etc.
+       Create a .env file based on the provided .env.example file and input necessary configurations like database URL, API keys, etc.
     
    iii. Repeat step 2 for the frontend directory:
-   cd ../frontend
-   npm install
+        cd ../frontend
+        npm install
 
 ## Usage
 
 1. Start the backend server:
    cd ../backend
-npm start
+   npm start
 
 2. Start the frontend application:
    cd ../frontend
-npm start
+   npm start
 
 3. Access the application in your web browser at http://localhost:3000.
 
